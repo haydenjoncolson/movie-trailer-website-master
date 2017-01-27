@@ -1,4 +1,4 @@
-#import fresh_tomatoes
+# Import fresh_tomatoes file.
 import fresh_tomatoes
 import media
 
@@ -40,11 +40,12 @@ casino = media.Movie("Casino",
 "https://www.youtube.com/watch?v=j-D0QiMpGKc")
 
 
-# Array of movies
+# Stores each movie into the array 'movies'.  
 
 movies = [the_interview, pineapple_express, this_is_the_end,
           the_godfather, goodfellas, casino]
 
-# Run the open movies page function from the fresh tomatoes file
+# Calls the open movie page function in the fresh tomaotoes file,
+# passing through the movies array as a parameter.
 
 fresh_tomatoes.open_movies_page(movies)
